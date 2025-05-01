@@ -149,7 +149,7 @@ int ApolloTrajectoryDesignProgram::OptimizedFullMission(const PerformanceData& p
 	iter_arr.dv_loi_cal = 10.0 * OrbMech::FPS2ERPH;
 	iter_arr.dv_tei_cal = 0.0 * OrbMech::FPS2ERPH;
 
-	iter_arr.isp_SPS = 3501.0 / OrbMech::G0 / 3600.0; //Rocketdyne G-1
+	iter_arr.isp_SPS = 3608.8 / OrbMech::G0 / 3600.0; //Rocketdyne G-1 with nozzle extention; 368s
 	iter_arr.isp_DPS = 3107.0 / OrbMech::G0 / 3600.0;
 
 	//Set up mode specific values
