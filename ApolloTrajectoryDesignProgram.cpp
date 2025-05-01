@@ -149,7 +149,7 @@ int ApolloTrajectoryDesignProgram::OptimizedFullMission(const PerformanceData& p
 	iter_arr.dv_loi_cal = 10.0 * OrbMech::FPS2ERPH;
 	iter_arr.dv_tei_cal = 0.0 * OrbMech::FPS2ERPH;
 
-	iter_arr.isp_SPS = 3080.0 / OrbMech::G0 / 3600.0;
+	iter_arr.isp_SPS = 3501.0 / OrbMech::G0 / 3600.0; //Rocketdyne G-1
 	iter_arr.isp_DPS = 3107.0 / OrbMech::G0 / 3600.0;
 
 	//Set up mode specific values
@@ -251,7 +251,7 @@ int ApolloTrajectoryDesignProgram::OptimizedFullMission(const PerformanceData& p
 	encke.Propagate(enckein);
 	sv_TEI1 = enckein.sv_cutoff;
 
-	//Get closest point to 180° EMP longitude as first TEI estimate
+	//Get closest point to 180Â° EMP longitude as first TEI estimate
 	sv_TEI2 = GetNearestTEIPoint(sv_TEI1);
 
 	VECTOR3 R_TEI_EMP, V_TEI_EMP;
