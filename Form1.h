@@ -543,7 +543,7 @@ private: System::Windows::Forms::TextBox^ textBox46;
 			this->textBox43->Name = L"textBox43";
 			this->textBox43->Size = System::Drawing::Size(100, 20);
 			this->textBox43->TabIndex = 29;
-			this->textBox43->Text = L"40202";
+			this->textBox43->Text = L"43100";
 			// 
 			// label71
 			// 
@@ -793,7 +793,7 @@ private: System::Windows::Forms::TextBox^ textBox46;
 			this->textBox35->Name = L"textBox35";
 			this->textBox35->Size = System::Drawing::Size(100, 20);
 			this->textBox35->TabIndex = 5;
-			this->textBox35->Text = L"30000";
+			this->textBox35->Text = L"36200";
 			// 
 			// label54
 			// 
@@ -819,7 +819,7 @@ private: System::Windows::Forms::TextBox^ textBox46;
 			this->textBox34->Name = L"textBox34";
 			this->textBox34->Size = System::Drawing::Size(100, 20);
 			this->textBox34->TabIndex = 2;
-			this->textBox34->Text = L"66000";
+			this->textBox34->Text = L"69215";
 			// 
 			// label52
 			// 
